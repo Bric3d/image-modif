@@ -1,7 +1,7 @@
 <?php
 /* Set the page title here */
 
-$page_title = "Homepage";
+$page_title = "Camagru";
 ?>
 <?php require("./elements/header.php");?>
 

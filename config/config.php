@@ -3,8 +3,8 @@
 // Database
 
 $db_dsn = 'mysql:host=localhost';
-$bdd_username = 'camagru';
-$bdd_password = 'password';
+$bdd_username = 'root';
+$bdd_password = '';
 $db_name = 'camagru';
 
 // Debug
@@ -17,5 +17,8 @@ $timezone_identifier = 'Europe/Paris';
 
 // Error Logs
 $error_log_path = './logs/errors';
+
+// Style
+$favicon = './public/favicon.ico'
 
 ?>
