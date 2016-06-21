@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /* Set $page_title in the file including this one 	*/
 
 /* Put Header content below							*/

@@ -16,3 +16,26 @@
 [20-Jun-2016 16:48:10 Europe/Paris] PHP Notice:  Undefined variable: favicon in /nfs/2014/b/bbecker/projects/camagru/elements/header.php on line 12
 [20-Jun-2016 16:48:11 Europe/Paris] PHP Notice:  Undefined variable: favicon in /nfs/2014/b/bbecker/projects/camagru/elements/header.php on line 12
 [20-Jun-2016 16:48:11 Europe/Paris] PHP Notice:  Undefined variable: favicon in /nfs/2014/b/bbecker/projects/camagru/elements/header.php on line 12
+[21-Jun-2016 18:15:18 Europe/Paris] [91minvalid url: /dddd[0m
+[21-Jun-2016 19:00:09 Europe/Paris] PHP Notice:  Undefined variable: bbd in /nfs/2014/b/bbecker/projects/camagru/index.php on line 9
+[21-Jun-2016 19:00:09 Europe/Paris] PHP Fatal error:  Call to a member function exec() on a non-object in /nfs/2014/b/bbecker/projects/camagru/index.php on line 9
+[21-Jun-2016 19:00:52 Europe/Paris] PHP Fatal error:  Non-static method PDO::query() cannot be called statically in /nfs/2014/b/bbecker/projects/camagru/index.php on line 9
+[21-Jun-2016 19:00:53 Europe/Paris] PHP Fatal error:  Non-static method PDO::query() cannot be called statically in /nfs/2014/b/bbecker/projects/camagru/index.php on line 9
+[21-Jun-2016 19:02:48 Europe/Paris] PHP Warning:  include(./internal/database): failed to open stream: No such file or directory in /nfs/2014/b/bbecker/projects/camagru/elements/header.php on line 3
+[21-Jun-2016 19:02:48 Europe/Paris] PHP Warning:  include(): Failed opening './internal/database' for inclusion (include_path='.:') in /nfs/2014/b/bbecker/projects/camagru/elements/header.php on line 3
+[21-Jun-2016 19:02:56 Europe/Paris] PHP Fatal error:  Cannot redeclare bdd() (previously declared in /nfs/2014/b/bbecker/projects/camagru/internal/database.php:5) in /nfs/2014/b/bbecker/projects/camagru/internal/database.php on line 21
+[21-Jun-2016 19:02:57 Europe/Paris] PHP Fatal error:  Cannot redeclare bdd() (previously declared in /nfs/2014/b/bbecker/projects/camagru/internal/database.php:5) in /nfs/2014/b/bbecker/projects/camagru/internal/database.php on line 21
+[21-Jun-2016 19:06:36 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 10
+[21-Jun-2016 19:06:37 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 10
+[21-Jun-2016 19:06:37 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 10
+[21-Jun-2016 19:06:37 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 10
+[21-Jun-2016 19:07:07 Europe/Paris] PHP Fatal error:  Non-static method PDO::query() cannot be called statically in /nfs/2014/b/bbecker/projects/camagru/index.php on line 11
+[21-Jun-2016 19:07:08 Europe/Paris] PHP Fatal error:  Non-static method PDO::query() cannot be called statically in /nfs/2014/b/bbecker/projects/camagru/index.php on line 11
+[21-Jun-2016 19:13:58 Europe/Paris] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'dump' not found or invalid function name in /nfs/2014/b/bbecker/projects/camagru/internal/debug.php on line 10
+[21-Jun-2016 19:14:00 Europe/Paris] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'dump' not found or invalid function name in /nfs/2014/b/bbecker/projects/camagru/internal/debug.php on line 10
+[21-Jun-2016 19:16:20 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 23
+[21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: firstname in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
+[21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: lastname in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
+[21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: email in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
+[21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: password in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
+[21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: created_at in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
