@@ -39,3 +39,78 @@
 [21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: email in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
 [21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: password in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
 [21-Jun-2016 19:16:32 Europe/Paris] PHP Notice:  Undefined index: created_at in /nfs/2014/b/bbecker/projects/camagru/index.php on line 18
+[23-Jun-2016 16:12:39 Europe/Paris] PHP Fatal error:  Class 'User' not found in /nfs/2014/b/bbecker/projects/camagru/index.php on line 11
+[23-Jun-2016 16:14:35 Europe/Paris] PHP Fatal error:  Cannot redeclare bdd() (previously declared in /nfs/2014/b/bbecker/projects/camagru/internal/database.php:5) in /nfs/2014/b/bbecker/projects/camagru/internal/database.php on line 21
+[23-Jun-2016 16:14:37 Europe/Paris] PHP Fatal error:  Cannot redeclare bdd() (previously declared in /nfs/2014/b/bbecker/projects/camagru/internal/database.php:5) in /nfs/2014/b/bbecker/projects/camagru/internal/database.php on line 21
+[23-Jun-2016 16:15:11 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 11
+[23-Jun-2016 16:15:29 Europe/Paris] PHP Notice:  Undefined index: firstname in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 21
+[23-Jun-2016 16:15:29 Europe/Paris] PHP Notice:  Undefined index: lastname in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 21
+[23-Jun-2016 16:15:29 Europe/Paris] PHP Notice:  Undefined index: email in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 21
+[23-Jun-2016 16:15:29 Europe/Paris] PHP Notice:  Undefined index: password in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 21
+[23-Jun-2016 16:15:29 Europe/Paris] PHP Notice:  Undefined index: created_at in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 21
+[23-Jun-2016 16:17:34 Europe/Paris] PHP Warning:  Missing argument 1 for User::__construct(), called in /nfs/2014/b/bbecker/projects/camagru/index.php on line 11 and defined in /nfs/2014/b/bbecker/projects/camagru/classes/users/User.php on line 9
+[23-Jun-2016 16:17:34 Europe/Paris] PHP Notice:  Undefined variable: id in /nfs/2014/b/bbecker/projects/camagru/classes/users/User.php on line 11
+[23-Jun-2016 16:19:23 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 16
+[23-Jun-2016 16:19:24 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 16
+[23-Jun-2016 16:19:34 Europe/Paris] PHP Fatal error:  Cannot redeclare Model::__construct() in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 17
+[23-Jun-2016 16:24:20 Europe/Paris] PHP Notice:  Undefined property: User::$firstname in /nfs/2014/b/bbecker/projects/camagru/index.php on line 15
+[23-Jun-2016 16:24:21 Europe/Paris] PHP Notice:  Undefined property: User::$firstname in /nfs/2014/b/bbecker/projects/camagru/index.php on line 15
+[23-Jun-2016 16:27:48 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 14
+[23-Jun-2016 16:27:48 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 14
+[23-Jun-2016 16:27:49 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 14
+[23-Jun-2016 16:38:26 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 15
+[23-Jun-2016 16:38:27 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/index.php on line 15
+[23-Jun-2016 16:39:01 Europe/Paris] PHP Notice:  Undefined index: id in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 52
+[23-Jun-2016 16:39:01 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 72
+[23-Jun-2016 16:39:01 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 74
+[23-Jun-2016 16:39:01 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 74
+[23-Jun-2016 16:39:01 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 74
+[23-Jun-2016 16:39:01 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:39:58 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 73
+[23-Jun-2016 16:39:59 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:39:59 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:39:59 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:39:59 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:40:54 Europe/Paris] PHP Fatal error:  Cannot access protected property User::$vars in /nfs/2014/b/bbecker/projects/camagru/index.php on line 15
+[23-Jun-2016 16:42:14 Europe/Paris] PHP Fatal error:  Cannot access protected property User::$vars in /nfs/2014/b/bbecker/projects/camagru/index.php on line 15
+[23-Jun-2016 16:42:26 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:42:27 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:42:27 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:43:01 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:43:01 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:43:41 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 73
+[23-Jun-2016 16:43:41 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:43:41 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:43:41 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:43:41 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:44:42 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 73
+[23-Jun-2016 16:44:42 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:44:42 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:44:42 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:44:42 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:44:59 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 73
+[23-Jun-2016 16:44:59 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:44:59 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:44:59 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 75
+[23-Jun-2016 16:46:03 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 74
+[23-Jun-2016 16:46:03 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 76
+[23-Jun-2016 16:46:03 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 76
+[23-Jun-2016 16:46:03 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 76
+[23-Jun-2016 16:48:09 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 81
+[23-Jun-2016 16:48:09 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 83
+[23-Jun-2016 16:48:09 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 83
+[23-Jun-2016 16:48:09 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 83
+[23-Jun-2016 16:49:27 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/b/bbecker/projects/camagru/classes/Model.php on line 81
+[23-Jun-2016 16:49:52 Europe/Paris] 0 records saved successfully
+
+[23-Jun-2016 16:51:26 Europe/Paris] 0 records saved successfully
+

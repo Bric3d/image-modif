@@ -25,6 +25,8 @@ else {
 require('./internal/database.php');
 $bdd = bdd($db_dsn, $db_name, $bdd_username, $bdd_password);
 
+require('./classes/includes.php');
+
 /* Router */
 if (file_exists($_SERVER["DOCUMENT_ROOT"] . $_SERVER["REQUEST_URI"])) {
     return false;
