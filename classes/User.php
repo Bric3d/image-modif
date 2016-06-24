@@ -11,6 +11,6 @@ class User extends Model
 	}
 
 	public function comments(){
-		return $this->hasMany('Comment', 'id_user');
+		return $this->hasMany('Comment', 'user_id');
 	}
 }

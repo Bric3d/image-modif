@@ -4,6 +4,7 @@
 
 require_once('./classes/Model.php');
 require_once('./classes/User.php');
+require_once('./classes/Picture.php');
 require_once ('./classes/Comment.php');
 
 ?>

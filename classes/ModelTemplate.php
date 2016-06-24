@@ -4,7 +4,7 @@ class ModelTemplate extends Model
 {
 	protected $table = '';
 
-	protected $fillable = array();
+	protected $fillable = [];
 
 	public function __construct($id)
 	{

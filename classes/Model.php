@@ -40,7 +40,10 @@ class Model
 
 	public function getVariable($name)
 	{
-		return $this->vars[$name];
+		if (array_key_exists($name, $this->vars))
+			return $this->vars[$name];
+		else
+			return null;
 	}
 
 	public function getFillable()
@@ -52,14 +55,37 @@ class Model
 		return $this->table;
 	}
 
+	public function hasMany($class_name, $id_name){
+		$class = new $class_name(null);
+		$table = $class->getTable();
+		if ($this->getVariable($table) === null) {
+			$this_id = $this->getVariable('id');
+			$query = "SELECT id FROM $table WHERE $id_name = $this_id";
+			try {
+				global $bdd;
+				$cmd = $bdd->prepare($query);
+				$cmd->execute();
+				$data = $cmd->fetchAll();
+				error_log($cmd->rowCount() . " records found successfully\n");
+				$values = array();
+				foreach ($data as $id) {
+					$values[] = new $class_name($id['id']);
+				}
+				$this->setVariable(["$table" => $values]);
+				return ($values);
+			}
+			catch (PDOException $e) {
+				error_log("\e[91m" . $query . $e->getMessage() . "\n");
+			}
+		}
+	}
+
 	public function save() {
 		$i = 0;
 		if (($id = $this->vars['id']) !== null) {
 			$query = "UPDATE $this->table SET";
 			foreach($this->fillable as $valueName) {
 				$value = $this->vars[$valueName];
-				if ($valueName === "updated_at")
-					$value = $_SERVER['REQUEST_TIME'];
 				if ($i <= 0)
 					$query = $query . " $valueName='$value'";
 				else

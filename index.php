@@ -10,11 +10,12 @@ $page_title = "Camagru";
 <?php
 
 $real = new User(1);
-$cpy = $real;
-$cpy->setVariable(['firstname' => 'Brice', 'lastname' => 'Becker', 'email' => 'brice@b3cker.fr']);
-$cpy->save();
-$real = new User(1);
-dd($user);
+$picture = new Picture(1);
+$comment = new Comment(8);
+$comment->setVariable(['text' => 'efefeefefefef']);
+$comment->save();
+dd($real, '<br>', $picture, '<br>', $comment);
+
 
 ?>
 
