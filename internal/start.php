@@ -25,6 +25,8 @@ else {
 require('./internal/database.php');
 $bdd = bdd($db_dsn, $db_name, $bdd_username, $bdd_password);
 
+/* Get Classes */
+
 require('./classes/includes.php');
 
 /* Router */

@@ -1,8 +1,8 @@
 <?php
 
-class ModelTemplate extends Model
+class Comment extends Model
 {
-	protected $table = '';
+	protected $table = ['user_id', 'picture_id', 'text', 'created_at', 'updated_at'];
 
 	protected $fillable = array();
 

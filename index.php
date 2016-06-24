@@ -10,9 +10,11 @@ $page_title = "Camagru";
 <?php
 
 $real = new User(1);
-$not_real = new User(null);
-$not_real->setVariable(['firstname' => 'John', 'lastname' => 'Wayne', 'email' => 'john@wayne.com', 'password' => '$2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a']);
-$not_real->save();
+$cpy = $real;
+$cpy->setVariable(['firstname' => 'Brice', 'lastname' => 'Becker', 'email' => 'brice@b3cker.fr']);
+$cpy->save();
+$real = new User(1);
+dd($user);
 
 ?>
 

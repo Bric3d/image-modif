@@ -48,27 +48,34 @@ class Model
 		return $this->fillable;
 	}
 
+	public function getTable(){
+		return $this->table;
+	}
+
 	public function save() {
 		$i = 0;
-		if ($this->vars['id'] !== null) {
+		if (($id = $this->vars['id']) !== null) {
 			$query = "UPDATE $this->table SET";
 			foreach($this->fillable as $valueName) {
+				$value = $this->vars[$valueName];
+				if ($valueName === "updated_at")
+					$value = $_SERVER['REQUEST_TIME'];
 				if ($i <= 0)
-					$query = $query . " $valueName='$this->vars[$valueName]'";
+					$query = $query . " $valueName='$value'";
 				else
-					$query = $query . ", $valueName='$this->vars[$valueName]'";
+					$query = $query . ", $valueName='$value'";
 				$i++;
 			}
-			$query = $query . " WHERE id = $this->vars['id']";
+			$query = $query . " WHERE id = $id";
 		}
 		else {
 			$query = "INSERT INTO $this->table (";
 			foreach ($this->fillable as $value){
 				if ($this->getVariable($value) !== null) {
 					if ($i <= 0)
-						$query = $query . "'$value'";
+						$query = $query . "$value";
 					else
-						$query = $query . ", '$value'";
+						$query = $query . ", $value";
 					$i++;
 
 				}
@@ -91,7 +98,6 @@ class Model
 			error_log("\e[91m Tried to save an empty Model\n");
 			return;
 		}
-		dd($query);
 		try {
 			global $bdd;
 			$cmd = $bdd->prepare($query);
@@ -101,6 +107,5 @@ class Model
 		catch (PDOException $e) {
 			error_log("\e[91m" . $query . $e->getMessage() . "\n");
 		}
-
 	}
 }
